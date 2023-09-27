@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.main-content{
+    width: 100%;
+    position: relative;
+    top: -50px;
+}
+.du-campus-img img{
+    height: 100vh;
+    width: 100%;
+    
+    align-items: center;
+}
+.hedder{
+    position: sticky;
+    top: 2px;
+    left: 2px;
+    z-index: 100;
+}
+.logo img{
+    height: 50px;
+    float: left;
+}
+.menu {
+    width: 70%;
+    float: right;
+}
+
+.menu1 {
+    background: black;
+    height: 50%;
+    opacity: 0.7;
+    float: right;
+}
+.menu2 {
+    background: white;
+    height: 50%;
+    opacity: 0.7;
+    float: right;
+}
+
+.menu1 a{
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    color: white;
+}
+.menu2 a{
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+.menu3{
+    background: black;
+    opacity: 0.7;
+    height: 15vh;
+    position: relative;
+/*			top:-15.5vh ;*/
+    padding: px;
+}
+.menu3 div{
+    float: left;
+    height: 15vh;
+    padding: 15px;
+    width: 25%;
+}
+
+.menu3 img{
+    height: 9vh;
+    margin-right: 7px;
+}
+.menu3 a{
+    margin-left: 65px;
+    margin-right: 65px;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+}
+
+.btech-cse{
+    position: relative;
+/*			top:-15vh ;*/
+    width: 100%;
+    height: 15vh;		}
+.btech-cse div{
+    font-size: 30px;
+    /*margin: 2vh 30vh 2vh 30vh;
+    margin-top: 2vh;
+    margin-right: ;
+    margin-bottom: 2vh;
+    margin-left: ;*/
+}
+.btech-cse-allign-center{
+    background-color: red;
+    margin: 2vh 50vh;
+}
+.btech-cse div img{
+    height: 10vh; 
+    margin-left: 0.5vh;
+    align-items: center;
+}
+
+.why-du{
+    background: lightgrey;
+    width: 100%;
+}
+.why-du-1{
+    float: left;
+    background: lightgrey;
+    width: 50%;
+    padding: 40px;
+}
+.why-du-2{
+    float: left;
+    width: 50%;
+    padding: 40px;
+}
+
+.s-f-p-a table{
+    width: 100%;
+    background-image: linear-gradient(45deg,#0000cc 5%, #ff0066); 
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 5px;
+    background: lightgrey;
+    height: 21px;
+    width: 100%;
+    float: left;	
+}
+
+.menu-hover-effect a:hover{
+    background: red;
+}
+.menu3 div:hover{
+    background: red;
+}
